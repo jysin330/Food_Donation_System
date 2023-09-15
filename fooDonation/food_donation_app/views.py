@@ -5,7 +5,7 @@ from django.http import HttpResponse
 
 
 def index(request):
-    return HttpResponse("this is my homepage")
+    return render(request,  "food_donation/basic.html",)
 
 
 def contact(request):
